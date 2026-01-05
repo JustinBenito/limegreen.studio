@@ -1,4 +1,5 @@
 import { Inter, Bricolage_Grotesque, Instrument_Serif } from "next/font/google";
+import localFont from "next/font/local";
 import Script from "next/script";
 import "./globals.css";
 
@@ -21,13 +22,27 @@ const instrumentSerif = Instrument_Serif({
   display: "swap",
 });
 
+const coolvetica = localFont({
+  src: [
+    {
+      path: "../public/fonts/Coolvetica Rg.woff2",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-coolvetica",
+  display: "swap",
+});
+
 export const metadata = {
-  metadataBase: new URL('https://limegreen.studio'),
+  metadataBase: new URL("https://limegreen.studio"),
   title: {
-    default: "Lime Green Studios - MVP Development & Product Development in 4 Weeks",
-    template: "%s | Lime Green Studios"
+    default:
+      "Lime Green Studios - MVP Development & Product Development in 4 Weeks",
+    template: "%s | Lime Green Studios",
   },
-  description: "Leading MVP development agency. We build and ship your product from 0 to 1 in just 4 weeks. Expert product development, rapid prototyping, and full-stack development for startups and enterprises.",
+  description:
+    "Leading MVP development agency. We build and ship your product from 0 to 1 in just 4 weeks. Expert product development, rapid prototyping, and full-stack development for startups and enterprises.",
   keywords: [
     "MVP development",
     "MVP development agency",
@@ -49,7 +64,7 @@ export const metadata = {
     "0 to 1 product development",
     "lean product development",
     "agile MVP development",
-    "lime green studios"
+    "lime green studios",
   ].join(", "),
   authors: [{ name: "Lime Green Studios", url: "https://limegreen.studio" }],
   creator: "Lime Green Studios",
@@ -60,8 +75,10 @@ export const metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "Lime Green Studios - MVP Development & Product Development in 4 Weeks",
-    description: "Leading MVP development agency. We build and ship your product from 0 to 1 in just 4 weeks. Expert product development for startups and enterprises.",
+    title:
+      "Lime Green Studios - MVP Development & Product Development in 4 Weeks",
+    description:
+      "Leading MVP development agency. We build and ship your product from 0 to 1 in just 4 weeks. Expert product development for startups and enterprises.",
     url: "https://limegreen.studio",
     siteName: "Lime Green Studios",
     locale: "en_US",
@@ -71,14 +88,15 @@ export const metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Lime Green Studios - MVP Development Agency"
-      }
+        alt: "Lime Green Studios - MVP Development Agency",
+      },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lime Green Studios - MVP Development & Product Development",
-    description: "Leading MVP development agency. We ship your product from 0 to 1 in just 4 weeks.",
+    description:
+      "Leading MVP development agency. We ship your product from 0 to 1 in just 4 weeks.",
     creator: "@limegreenstudios",
     images: ["/og-image.png"],
   },
@@ -109,7 +127,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head>
         <Script
           defer
@@ -119,7 +137,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body
-        className={`${inter.variable} ${bricolageGrotesque.variable} ${instrumentSerif.variable} antialiased`}
+        className={`${inter.variable} ${bricolageGrotesque.variable} ${instrumentSerif.variable} ${coolvetica.variable} antialiased`}
       >
         {children}
       </body>
