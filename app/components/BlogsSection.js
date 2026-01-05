@@ -1,4 +1,4 @@
-import { getAllBlogs } from "@/lib/blog";
+import { getAllBlogs } from "@/app/blogs/[slug]/blog";
 import BlogCard from "./cards/BlogCard";
 
 export default function BlogsSection() {

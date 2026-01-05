@@ -1,7 +1,7 @@
 import React from "react";
-import { getBlogBySlug, getAllBlogs } from "@/lib/blog";
+import { getBlogBySlug, getAllBlogs } from "@/app/blogs/[slug]/blog";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { extractTOC } from "@/lib/toc";
+import { extractTOC } from "@/app/blogs/[slug]/toc";
 import TableOfContents from "@/app/components/TableOfContents";
 import ReadingProgressBar from "@/app/components/ReadingProgressBar";
 import Image from "next/image";
