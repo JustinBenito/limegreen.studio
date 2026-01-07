@@ -23,6 +23,14 @@ export default function Hero() {
     }
   }, []);
 
+  const handleScrollToStart = (e) => {
+    e.preventDefault();
+    const element = document.getElementById("start-shipping");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -80,12 +88,12 @@ export default function Hero() {
           animate="visible"
         >
           <motion.h1
-            className="font-coolvetica text-5xl md:text-5xl lg:text-6xl xl:text-7xl font-normal mb-3 md:mb-4"
+            className="font-coolvetica text-5xl md:text-5xl lg:text-6xl xl:text-7xl font-normal mb-3 md:mb-4 leading-[1.15]"
             variants={textVariants}
           >
             Solving Problems
             <br className="" /> by Shipping{" "}
-            <span className="bg-gradient-to-r from-gray-900 to-gray-700 text-white px-4 md:px-5 py-1 md:py-2 inline-block font-bold rounded-lg shadow-lg">
+            <span className="bg-gradient-to-r from-gray-900 to-gray-700 text-white px-4 md:px-5 py-1 md:py-2 inline-block font-bold rounded-lg shadow-lg mt-2 mb-1">
               Products
             </span>
           </motion.h1>
@@ -97,6 +105,34 @@ export default function Hero() {
             We take your idea from <span className="font-semibold">0 to 1</span>{" "}
             in just <span className="font-semibold italic">4 weeks</span>
           </motion.p>
+
+          <motion.div
+            className="flex justify-center mt-8 md:mt-10 mb-2 md:mb-0"
+            variants={textVariants}
+          >
+            <a
+              href="#start-shipping"
+              onClick={handleScrollToStart}
+              className="group relative flex items-center gap-3 px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-lime-500 to-lime-300 text-gray-900 rounded-2xl font-coolvetica font-bold text-base md:text-lg shadow-xl shadow-lime-500/20 hover:shadow-2xl hover:shadow-lime-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
+            >
+              Get Started
+              <div className="flex items-center justify-center w-6 h-6 rounded-full bg-gray-900 text-white group-hover:translate-x-1 transition-transform duration-300">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  className="w-3.5 h-3.5"
+                >
+                  <path
+                    d="M5 12h14M12 5l7 7-7 7"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </a>
+          </motion.div>
         </motion.div>
 
         {/* Mobile Marquee - Visible only on mobile */}
