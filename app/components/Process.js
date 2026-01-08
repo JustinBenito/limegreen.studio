@@ -114,9 +114,9 @@ const Process = () => {
       id="process"
       className="relative w-full py-16 md:py-24 bg-white overflow-hidden border-0"
     >
-      {/* Decorative Background Blobs */}
-      <div className="absolute top-0 right-0 w-[420px] h-[420px] bg-lime-200/25 blur-[120px] rounded-full mix-blend-multiply pointer-events-none translate-x-1/3 -translate-y-1/3" />
-      <div className="absolute bottom-0 left-0 w-[420px] h-[420px] bg-lime-200/25 blur-[120px] rounded-full mix-blend-multiply pointer-events-none -translate-x-1/3 translate-y-1/3" />
+      {/* Decorative Background Blobs - top-left to bottom-right */}
+      <div className="absolute top-0 left-0 w-[420px] h-[420px] bg-lime-200/25 blur-[120px] rounded-full mix-blend-multiply pointer-events-none -translate-x-1/3 -translate-y-1/3" />
+      <div className="absolute bottom-0 right-0 w-[420px] h-[420px] bg-lime-200/25 blur-[120px] rounded-full mix-blend-multiply pointer-events-none translate-x-1/3 translate-y-1/3" />
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
         {/* Header */}

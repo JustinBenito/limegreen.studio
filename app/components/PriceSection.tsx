@@ -12,9 +12,9 @@ export default function PriceSectionWrapper() {
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
         >
-            {/* Decorative Background Blobs - top-left to bottom-right */}
-            <div className="absolute top-0 left-0 w-[420px] h-[420px] bg-lime-200/25 blur-[120px] rounded-full mix-blend-multiply pointer-events-none -translate-x-1/3 -translate-y-1/3" />
-            <div className="absolute bottom-0 right-0 w-[420px] h-[420px] bg-lime-200/25 blur-[120px] rounded-full mix-blend-multiply pointer-events-none translate-x-1/3 translate-y-1/3" />
+            {/* Decorative Background Blobs - top-right to bottom-left */}
+            <div className="absolute top-0 right-0 w-[420px] h-[420px] bg-lime-200/25 blur-[120px] rounded-full mix-blend-multiply pointer-events-none translate-x-1/3 -translate-y-1/3" />
+            <div className="absolute bottom-0 left-0 w-[420px] h-[420px] bg-lime-200/25 blur-[120px] rounded-full mix-blend-multiply pointer-events-none -translate-x-1/3 translate-y-1/3" />
 
             <div className="relative z-10">
                 <PricingSection
