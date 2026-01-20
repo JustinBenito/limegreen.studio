@@ -43,8 +43,8 @@ const PLANS: Plan[] = [
             { text: "Unlimited revisions until you're satisfied" },
         ],
         btn: {
-            text: "Get Started",
-            href: "#",
+            text: "Book a Free Consultation",
+            href: "https://cal.com/limegreen.studio/discovery-call",
         },
     },
     {
@@ -63,8 +63,8 @@ const PLANS: Plan[] = [
             { text: "Unlimited revisions until you're satisfied" },
         ],
         btn: {
-            text: "Get Started",
-            href: "#",
+            text: "Book a Free Consultation",
+            href: "https://cal.com/limegreen.studio/discovery-call",
         },
     },
     {
@@ -83,8 +83,8 @@ const PLANS: Plan[] = [
             { text: "Unlimited revisions until you're satisfied" },
         ],
         btn: {
-            text: "Get Started",
-            href: "#",
+            text: "Book a Free Consultation",
+            href: "https://cal.com/limegreen.studio/discovery-call",
         },
     },
 ];

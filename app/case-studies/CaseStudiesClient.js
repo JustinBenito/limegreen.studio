@@ -157,10 +157,12 @@ export default function CaseStudiesClient({ blogs }) {
               idea into reality.
             </p>
             <Link
-              href="/#start-shipping"
+              href="https://cal.com/limegreen.studio/discovery-call"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-lime-600 rounded-2xl font-bold text-lg shadow-xl hover:scale-[1.02] transition-all duration-300"
             >
-              Start Your Project
+              Book a Free Consultation
             </Link>
           </div>
         </div>

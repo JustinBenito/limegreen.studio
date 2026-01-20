@@ -106,10 +106,12 @@ export default async function SolutionPage({
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/#start-shipping"
+                href="https://cal.com/limegreen.studio/discovery-call"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-lime-600 text-white rounded-2xl font-semibold text-lg shadow-xl shadow-lime-600/20 hover:bg-lime-700 hover:scale-[1.02] transition-all duration-300"
               >
-                {solution.cta.primary}
+                Book a Free Consultation
               </Link>
               {caseStudies.length > 0 && (
                 <Link
@@ -306,10 +308,12 @@ export default async function SolutionPage({
               Let's turn your idea into reality in just 4 weeks.
             </p>
             <Link
-              href="/#start-shipping"
+              href="https://cal.com/limegreen.studio/discovery-call"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-lime-600 rounded-2xl font-bold text-lg shadow-xl hover:scale-[1.02] transition-all duration-300"
             >
-              Start Your Project
+              Book a Free Consultation
             </Link>
           </div>
         </section>

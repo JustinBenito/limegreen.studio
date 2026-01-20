@@ -6,7 +6,7 @@ import align from "../../public/screenshots/align.png";
 import rmp from "../../public/screenshots/rmp.png";
 import tc from "../../public/screenshots/tc.png";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState } from "react";
 
 const images = [align, rmp, tc, ck];
 
@@ -62,14 +62,6 @@ export default function Hero() {
     }
   }, []);
 
-  const handleScrollToStart = useCallback((e) => {
-    e.preventDefault();
-    const element = document.getElementById("start-shipping");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  }, []);
-
   return (
     <section className="relative min-h-screen md:mx-auto flex items-center justify-center">
       {/* Outer subtle border */}
@@ -113,11 +105,12 @@ export default function Hero() {
             variants={textVariants}
           >
             <a
-              href="#start-shipping"
-              onClick={handleScrollToStart}
+              href="https://cal.com/limegreen.studio/discovery-call"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group relative flex items-center gap-3 px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-lime-600 to-lime-500 text-white rounded-2xl font-sans font-bold text-base md:text-lg shadow-xl shadow-lime-600/20 hover:shadow-2xl hover:shadow-lime-600/40 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
             >
-              Get Started
+              Book a Free Consultation
               <div className="flex items-center justify-center w-6 h-6 rounded-full bg-gray-900 text-white group-hover:translate-x-1 transition-transform duration-300">
                 <svg
                   viewBox="0 0 24 24"

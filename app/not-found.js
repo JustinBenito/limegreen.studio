@@ -110,10 +110,12 @@ export default function NotFound() {
             </Link>
             <span className="text-gray-300">•</span>
             <Link
-              href="/#start-shipping"
+              href="https://cal.com/limegreen.studio/discovery-call"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-lime-600 hover:text-lime-700 font-medium transition-colors"
             >
-              Contact Us
+              Book a Free Consultation
             </Link>
           </div>
         </motion.div>

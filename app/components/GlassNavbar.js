@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
-import { useCallback } from "react";
 
 const navItems = [
   { label: "Why us", href: "#comparison" },
@@ -24,15 +23,6 @@ export default function GlassNavbar() {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const handleScrollToStart = useCallback((e) => {
-    e.preventDefault();
-    setIsOpen(false);
-    const element = document.getElementById("start-shipping");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
   }, []);
 
   return (
@@ -96,11 +86,12 @@ export default function GlassNavbar() {
             </Link>
           ))}
           <a
-            href="#start-shipping"
-            onClick={handleScrollToStart}
+            href="https://cal.com/limegreen.studio/discovery-call"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-4 px-8 py-3 text-lg font-bold text-white bg-lime-500 rounded-full shadow-lg shadow-lime-500/30"
           >
-            Get Started
+            Book a Free Consultation
           </a>
         </div>
       </div>
@@ -175,15 +166,16 @@ export default function GlassNavbar() {
 
                 {/* CTA Button */}
                 <a
-                  href="#start-shipping"
-                  onClick={handleScrollToStart}
+                  href="https://cal.com/limegreen.studio/discovery-call"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`hidden md:flex relative overflow-hidden rounded-full font-semibold transition-all duration-300 ease-out hover:scale-105 active:scale-95 group ml-2 px-4 md:px-5 py-1.5 text-sm md:text-base bg-white/20 hover:bg-white/40 border border-white/40 shadow-sm backdrop-blur-md`}
                 >
                   {/* Shine effect */}
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
 
                   <span className="relative z-10 text-gray-900">
-                    Get Started
+                    Book a Free Consultation
                   </span>
                 </a>
               </div>
