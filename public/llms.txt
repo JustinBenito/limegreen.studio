@@ -1,0 +1,138 @@
+# Lime Green Studio
+
+> Product Studio | Idea to Product in 4 Weeks
+
+## About Us
+
+Lime Green Studio is a product development studio that transforms ideas into fully-functional products in just 4 weeks. We specialize in building MVPs and production-ready applications for startups and founders.
+
+## What We Do
+
+We follow a clear 4-week process:
+
+### Week 1: Research
+- Understand the problem, users, and market
+- Validate the idea
+- Align on what to build and what not to
+
+### Week 2: Design
+- Design user-first UI
+- Focus on clarity and conversion
+- Create designs that bring value to users
+
+### Week 3: Development
+- Build using modern tech stack
+- Focus on core features first
+- No over-engineering
+
+### Week 4: Testing & Launch
+- Test thoroughly
+- Fix issues
+- Polish the product
+- Launch when stable
+
+## Our Expertise
+
+- Product Research & Validation
+- UI/UX Design
+- Web & Mobile Development (React, Next.js, Flutter)
+- AI & Machine Learning Integration
+- API Development (Node.js)
+- Database Design & Management
+- Testing & Quality Assurance
+- Product Launch & Deployment
+
+## Notable Projects
+
+### TanglishCaptions
+AI-powered vernacular video captioning tool for Tamil/Tanglish content creators. Built in collaboration with Supermeme.ai founder Sanjeev N C. Reduces manual captioning time from 4 hours to 40 seconds.
+
+### ComeAlign
+A Gen-Z dating app that retires blind swipe culture. Matches users based on zodiac compatibility rooted in astrological research. Built with Flutter for iOS and Android, featuring colorful and engaging design.
+
+### Silverbox.ai
+AI-powered jewelry personalization platform that solves the "ShelfWear" problem. Uses Style DNA to match women with jewelry that fits their personal aesthetics. Built with founder Mariappan Muthiah, backed by MudhalVC.
+
+### SuperMatch
+AI-powered networking platform for Tamil Nadu's startup ecosystem. Connects students, founders, service providers, and investors based on intent and relevance. Built with Entrepreneurs of Madras.
+
+## Our Philosophy
+
+- We trust founders, not just ideas
+- Ideas are cheap, execution is everything
+- Build for real users, not just stakeholders
+- Ship fast, iterate faster
+- No over-engineering, just what's needed
+
+## Tech Stack
+
+- **Frontend:** React, Next.js, Tailwind CSS, Flutter
+- **Backend:** Node.js, Express
+- **AI/ML:** TensorFlow, PyTorch, OpenAI APIs
+- **Databases:** PostgreSQL, MongoDB, Firebase
+- **Cloud:** AWS, Google Cloud, Vercel
+- **Mobile:** Flutter (iOS & Android)
+
+## Stats
+
+- 15+ clients from around the world
+- 4-week average time from idea to product
+- Projects spanning AI, E-commerce, Social Apps, and more
+
+## Contact
+
+- **Email:** contact@limegreen.studio
+- **Website:** https://limegreen.studio
+- **Instagram:** https://instagram.com/limegreen.studio
+- **LinkedIn:** https://www.linkedin.com/company/lime-green-studios/
+
+## Services
+
+We offer end-to-end product development:
+- Initial consultation and project scoping
+- Product strategy and planning
+- Design and prototyping
+- Full-stack development
+- AI/ML integration
+- Quality assurance and testing
+- Deployment and launch
+- Post-launch support
+
+## Target Audience
+
+- Early-stage startups
+- Solo founders
+- Product managers with ideas
+- Companies needing MVP development
+- Businesses looking to validate new product ideas
+
+## Value Proposition
+
+Turn your idea into a production-ready product in 4 weeks. No unnecessary features, no over-engineering, just what you need to launch and validate.
+
+## How We Work
+
+1. **Discovery Call:** Understand your vision and requirements
+2. **Proposal:** Clear scope, timeline, and pricing
+3. **Agreement:** Sign contract and make initial payment
+4. **Execution:** 4-week sprint following our proven process
+5. **Delivery:** Tested, polished, ready-to-launch product
+6. **Support:** Post-launch assistance and maintenance options
+
+## Location
+
+Tamil Nadu, India (serving clients worldwide)
+
+## Blog Topics
+
+We write about:
+- Product development
+- Design engineering
+- AI and machine learning
+- Startup ecosystem
+- Case studies and learnings
+- Building in public
+
+## Last Updated
+
+January 2026

@@ -1,0 +1,1230 @@
+[
+  {
+    "slug": "product-development-agency",
+    "name": "Product Development Agency",
+    "title": "Product Development Agency | Ship Products in 4 Weeks",
+    "tagline": "Your End-to-End Product Development Partner",
+    "metaDescription": "Leading product development agency in Tamil Nadu. We build and ship your product from 0 to 1 in just 4 weeks. From research to launch, we handle everything.",
+    "keywords": [
+      "product development agency",
+      "product development services",
+      "MVP development agency",
+      "product development company",
+      "custom product development"
+    ],
+    "heroHeadline": "Build Your Product in 4 Weeks",
+    "heroSubheading": "We're not just a dev shop. We're your technical co-founder—handling research, design, development, and launch.",
+    "description": "At Lime Green Studios, we're more than a product development agency. We're your partner in transforming ideas into reality. Our proven 4-week process takes your concept from zero to a launched product, handling everything from market research to post-launch support.",
+    "pain
+
+Points": [
+      {
+        "title": "Can't Find a Technical Co-Founder",
+        "description": "Most founders struggle to find a technical partner who understands the product vision and can execute it.",
+        "solution": "We become your technical team. We don't just code—we think product-first, challenge assumptions, and build for real users."
+      },
+      {
+        "title": "Agencies Take Too Long",
+        "description": "Traditional agencies quote 3-6 months for an MVP, by which time the market has moved on.",
+        "solution": "Our 4-week sprint methodology delivers a production-ready product in weeks, not months. Speed is our competitive advantage."
+      },
+      {
+        "title": "Developers Don't Understand Business",
+        "description": "Most dev teams build what you ask for, not what users need.",
+        "solution": "We start with research and validation. We push back when needed. We build for outcomes, not just outputs."
+      }
+    ],
+    "features": [
+      {
+        "title": "Full-Stack Development",
+        "description": "From frontend to backend, databases to deployment—we handle the entire technical stack.",
+        "icon": "code"
+      },
+      {
+        "title": "Product Strategy",
+        "description": "We don't just code. We help define what to build, what not to build, and why.",
+        "icon": "strategy"
+      },
+      {
+        "title": "User-First Design",
+        "description": "Every pixel is designed for conversion and clarity. Beautiful interfaces that users love.",
+        "icon": "design"
+      },
+      {
+        "title": "Modern Tech Stack",
+        "description": "React, Next.js, Node.js, AI integration—we use proven, scalable technologies.",
+        "icon": "tech"
+      },
+      {
+        "title": "Agile Sprints",
+        "description": "Weekly check-ins, continuous feedback, and rapid iteration throughout the 4 weeks.",
+        "icon": "sprint"
+      },
+      {
+        "title": "Post-Launch Support",
+        "description": "We don't disappear after launch. Bug fixes, updates, and guidance when you need it.",
+        "icon": "support"
+      }
+    ],
+    "process": {
+      "overview": "Our 4-week product development process is battle-tested across 15+ successful launches.",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Research & Validation",
+          "description": "We validate your idea, research competitors, define core features, and create a product roadmap.",
+          "deliverables": ["Market research report", "User personas", "Feature prioritization", "Technical architecture plan"]
+        },
+        {
+          "week": "Week 2",
+          "title": "Design & Prototyping",
+          "description": "We design every screen, create interactive prototypes, and get your feedback before writing code.",
+          "deliverables": ["Complete UI/UX design", "Interactive prototype", "Design system", "User flow diagrams"]
+        },
+        {
+          "week": "Week 3",
+          "title": "Development",
+          "description": "We build the product using modern tech, focusing on core features that drive value.",
+          "deliverables": ["Functional MVP", "Database setup", "API development", "Frontend implementation"]
+        },
+        {
+          "week": "Week 4",
+          "title": "Testing & Launch",
+          "description": "We test rigorously, fix bugs, polish the experience, and deploy to production.",
+          "deliverables": ["Tested product", "Deployment", "Documentation", "Launch support"]
+        }
+      ]
+    },
+    "caseStudies": [
+      "comealign-genz-dating-app",
+      "silverbox-ai-jewellery-personalization",
+      "supermatch-tamil-nadu-startup-ecosystem"
+    ],
+    "techStack": {
+      "frontend": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
+      "backend": ["Node.js", "Express", "Python"],
+      "database": ["PostgreSQL", "MongoDB", "Firebase"],
+      "cloud": ["Vercel", "AWS", "Google Cloud"],
+      "ai": ["OpenAI API", "TensorFlow", "Custom ML models"]
+    },
+    "faqs": [
+      {
+        "question": "How is a product development agency different from a software agency?",
+        "answer": "A product development agency focuses on building complete products from ideation to launch, with product thinking at the core. We don't just execute specs—we help define what to build, validate ideas, and ensure the product solves real user problems. Software agencies typically focus on custom development based on detailed requirements."
+      },
+      {
+        "question": "Can you really build a product in 4 weeks?",
+        "answer": "Yes! We focus on the MVP—the minimum viable product with core features that solve the main problem. We don't build everything at once. We build what matters, launch fast, and iterate based on real user feedback. Our 15+ successful launches prove the methodology works."
+      },
+      {
+        "question": "What if I don't have a technical background?",
+        "answer": "Perfect! That's exactly who we work with. We translate technical jargon into plain English, guide you through every decision, and never make you feel out of your depth. Many of our best clients are non-technical founders with great ideas."
+      },
+      {
+        "question": "Do you work with startups or enterprises?",
+        "answer": "Primarily startups and growth-stage companies. Our 4-week model is perfect for founders who need to validate ideas fast, launch MVPs, or build new products quickly. We love working with ambitious founders who value speed."
+      },
+      {
+        "question": "What happens after the 4 weeks?",
+        "answer": "You get a fully functional, production-ready product. We also offer post-launch support packages for bug fixes, updates, and new features. Many clients stay with us as we scale their products based on user feedback."
+      },
+      {
+        "question": "How much does product development cost?",
+        "answer": "Our pricing depends on complexity and scope. A typical 4-week MVP development project ranges from $15,000-$40,000. We provide fixed-price quotes after understanding your requirements. No hourly billing surprises."
+      }
+    ],
+    "relatedSolutions": ["software-development-agency", "ai-development-agency", "saas-development"],
+    "cta": {
+      "primary": "Start Your Product Journey",
+      "secondary": "View Case Studies"
+    }
+  },
+  {
+    "slug": "software-development-agency",
+    "name": "Software Development Agency",
+    "title": "Software Development Agency | Custom Software in 4 Weeks",
+    "tagline": "Custom Software Development That Ships Fast",
+    "metaDescription": "Premier software development agency specializing in custom software solutions. We build web apps, mobile apps, and enterprise software in just 4 weeks.",
+    "keywords": [
+      "software development agency",
+      "custom software development",
+      "software development services",
+      "software development company",
+      "web app development"
+    ],
+    "heroHeadline": "Custom Software Development That Actually Ships",
+    "heroSubheading": "From web applications to mobile apps to enterprise systems—we build software that solves real problems.",
+    "description": "Lime Green Studios is a software development agency that combines technical excellence with speed. Whether you need a web application, mobile app, or custom enterprise software, we deliver production-ready solutions in 4 weeks.",
+    "painPoints": [
+      {
+        "title": "Projects Drag On for Months",
+        "description": "Most software agencies take 6-12 months to deliver, burning through your budget and patience.",
+        "solution": "We ship in 4-week sprints. You see progress every week, launch fast, and iterate based on real usage."
+      },
+      {
+        "title": "Poor Communication",
+        "description": "Developers disappear for weeks, emerge with code you can't understand, and bill by the hour.",
+        "solution": "Weekly check-ins, transparent progress tracking, and fixed-price quotes. You always know where you stand."
+      },
+      {
+        "title": "Technical Debt from Day One",
+        "description": "Cheap developers cut corners. Your 'working' software breaks at scale.",
+        "solution": "We build for the long term. Clean code, proper architecture, scalability baked in from day one."
+      }
+    ],
+    "features": [
+      {
+        "title": "Web Application Development",
+        "description": "Modern, responsive web apps built with React, Next.js, and cutting-edge frameworks.",
+        "icon": "web"
+      },
+      {
+        "title": "Mobile App Development",
+        "description": "Native-feeling mobile apps for iOS and Android using Flutter and React Native.",
+        "icon": "mobile"
+      },
+      {
+        "title": "API Development",
+        "description": "RESTful and GraphQL APIs built for performance, security, and scalability.",
+        "icon": "api"
+      },
+      {
+        "title": "Database Design",
+        "description": "Robust database architecture using PostgreSQL, MongoDB, or Firebase.",
+        "icon": "database"
+      },
+      {
+        "title": "Cloud Deployment",
+        "description": "Production-ready deployment on AWS, Google Cloud, or Vercel with CI/CD pipelines.",
+        "icon": "cloud"
+      },
+      {
+        "title": "Quality Assurance",
+        "description": "Rigorous testing, code reviews, and QA processes to ensure bug-free launches.",
+        "icon": "qa"
+      }
+    ],
+    "process": {
+      "overview": "Our streamlined 4-week software development process delivers quality code, on time, every time.",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Requirements & Architecture",
+          "description": "We define technical requirements, design system architecture, and create a development roadmap.",
+          "deliverables": ["Technical specification", "Architecture diagram", "Database schema", "API design"]
+        },
+        {
+          "week": "Week 2",
+          "title": "Design & Frontend",
+          "description": "We design the interface and build the frontend with pixel-perfect precision.",
+          "deliverables": ["UI/UX design", "Frontend implementation", "Responsive layouts", "Component library"]
+        },
+        {
+          "week": "Week 3",
+          "title": "Backend & Integration",
+          "description": "We build the backend, set up databases, create APIs, and integrate everything.",
+          "deliverables": ["Backend API", "Database setup", "Third-party integrations", "Authentication system"]
+        },
+        {
+          "week": "Week 4",
+          "title": "Testing & Deployment",
+          "description": "We test thoroughly, deploy to production, and ensure everything runs smoothly.",
+          "deliverables": ["QA testing", "Bug fixes", "Production deployment", "Documentation"]
+        }
+      ]
+    },
+    "caseStudies": [
+      "comealign-genz-dating-app",
+      "tanglish-captions-vernacular-video-ai",
+      "supermatch-tamil-nadu-startup-ecosystem"
+    ],
+    "techStack": {
+      "frontend": ["React", "Next.js", "Vue.js", "Flutter"],
+      "backend": ["Node.js", "Python", "Express", "FastAPI"],
+      "database": ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
+      "cloud": ["AWS", "Google Cloud", "Vercel", "DigitalOcean"],
+      "tools": ["Docker", "Kubernetes", "CI/CD", "Git"]
+    },
+    "faqs": [
+      {
+        "question": "What types of software do you build?",
+        "answer": "We build web applications, mobile apps, APIs, SaaS platforms, enterprise software, and custom tools. If it runs on code, we can build it. Our specialty is business software that solves real problems and scales with growth."
+      },
+      {
+        "question": "Do you use off-the-shelf solutions or build custom?",
+        "answer": "We build custom software tailored to your exact needs. We don't use templates or generic solutions. Every line of code is written for your specific requirements, ensuring you get exactly what you need."
+      },
+      {
+        "question": "Can you integrate with existing systems?",
+        "answer": "Absolutely. We regularly integrate with CRMs, payment processors, databases, APIs, and legacy systems. We have experience with Stripe, Salesforce, AWS services, third-party APIs, and more."
+      },
+      {
+        "question": "How do you ensure code quality?",
+        "answer": "We follow industry best practices: code reviews, automated testing, continuous integration, and proper documentation. Every project undergoes rigorous QA testing before deployment. We write clean, maintainable code that future developers can work with."
+      },
+      {
+        "question": "What's included in the 4 weeks?",
+        "answer": "Complete software development from start to finish: requirements gathering, architecture design, frontend development, backend development, database setup, testing, deployment, and documentation. You get a production-ready product."
+      },
+      {
+        "question": "Do you provide ongoing maintenance?",
+        "answer": "Yes! We offer post-launch support packages that include bug fixes, updates, feature additions, and technical support. Many clients keep us on retainer for continuous development."
+      }
+    ],
+    "relatedSolutions": ["product-development-agency", "saas-development", "ai-development-agency"],
+    "cta": {
+      "primary": "Start Your Software Project",
+      "secondary": "See Our Work"
+    }
+  },
+  {
+    "slug": "ai-development-agency",
+    "name": "AI Development Agency",
+    "title": "AI Development Agency | Build AI Products in 4 Weeks",
+    "tagline": "AI Product Development for the Real World",
+    "metaDescription": "Leading AI development agency specializing in AI product development, machine learning integration, and intelligent automation. Build your AI product in 4 weeks.",
+    "keywords": [
+      "AI development agency",
+      "AI product development",
+      "machine learning development",
+      "artificial intelligence services",
+      "AI integration"
+    ],
+    "heroHeadline": "Build AI Products That Actually Work",
+    "heroSubheading": "From AI-powered features to full ML products—we build intelligent systems that solve real problems.",
+    "description": "Lime Green Studios specializes in AI product development that goes beyond the hype. We build AI-powered applications, integrate machine learning into existing products, and create intelligent automation systems that deliver measurable business value.",
+    "painPoints": [
+      {
+        "title": "AI Consultants All Talk, No Action",
+        "description": "Most AI agencies promise the world but deliver PowerPoint presentations.",
+        "solution": "We ship working AI products. Our portfolio includes AI caption generation, AI personalization engines, and more—all in production, generating revenue."
+      },
+      {
+        "title": "AI Integration Seems Too Complex",
+        "description": "Adding AI to your product feels overwhelming and expensive.",
+        "solution": "We make AI accessible. We use proven models (OpenAI, TensorFlow) and integrate them seamlessly into your existing stack."
+      },
+      {
+        "title": "Uncertain About ROI",
+        "description": "You're not sure if AI will actually improve your product or just add cost.",
+        "solution": "We start with a clear use case. We measure impact. We show you the numbers—cost savings, conversion lift, user engagement."
+      }
+    ],
+    "features": [
+      {
+        "title": "AI Product Development",
+        "description": "Build complete AI-powered products from scratch—from idea to production-ready AI application.",
+        "icon": "ai-product"
+      },
+      {
+        "title": "ML Model Integration",
+        "description": "Integrate machine learning models into your existing product for intelligent features.",
+        "icon": "ml-model"
+      },
+      {
+        "title": "Natural Language Processing",
+        "description": "Chatbots, text analysis, sentiment detection, and language understanding systems.",
+        "icon": "nlp"
+      },
+      {
+        "title": "Computer Vision",
+        "description": "Image recognition, object detection, visual search, and AI-powered video analysis.",
+        "icon": "vision"
+      },
+      {
+        "title": "Personalization Engines",
+        "description": "AI-driven recommendation systems, content personalization, and user matching algorithms.",
+        "icon": "personalization"
+      },
+      {
+        "title": "Automation Systems",
+        "description": "Intelligent automation, workflow optimization, and AI decision-making systems.",
+        "icon": "automation"
+      }
+    ],
+    "process": {
+      "overview": "Our AI development process combines cutting-edge technology with practical business application.",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "AI Use Case Definition",
+          "description": "We identify the right AI application for your problem, define success metrics, and design the ML architecture.",
+          "deliverables": ["AI strategy document", "Data requirements", "Model selection", "Success metrics"]
+        },
+        {
+          "week": "Week 2",
+          "title": "Data & Model Preparation",
+          "description": "We prepare datasets, select or train ML models, and create the AI pipeline.",
+          "deliverables": ["Data preprocessing", "Model training", "API design", "Testing framework"]
+        },
+        {
+          "week": "Week 3",
+          "title": "Integration & Development",
+          "description": "We integrate AI models into your product, build the interface, and ensure seamless operation.",
+          "deliverables": ["AI integration", "Frontend development", "Backend API", "Real-time inference"]
+        },
+        {
+          "week": "Week 4",
+          "title": "Testing & Optimization",
+          "description": "We test AI accuracy, optimize performance, monitor results, and deploy to production.",
+          "deliverables": ["Model optimization", "Performance testing", "Deployment", "Monitoring dashboard"]
+        }
+      ]
+    },
+    "caseStudies": [
+      "tanglish-captions-vernacular-video-ai",
+      "silverbox-ai-jewellery-personalization"
+    ],
+    "techStack": {
+      "ai": ["OpenAI API", "TensorFlow", "PyTorch", "Hugging Face"],
+      "backend": ["Python", "FastAPI", "Node.js", "Flask"],
+      "frontend": ["React", "Next.js", "Vue.js"],
+      "cloud": ["AWS SageMaker", "Google Cloud AI", "Azure ML"],
+      "data": ["PostgreSQL", "MongoDB", "Pinecone", "Weaviate"]
+    },
+    "faqs": [
+      {
+        "question": "Do you build custom AI models or use existing ones?",
+        "answer": "Both! For most use cases, we use proven models like GPT-4, DALL-E, or open-source models from Hugging Face—this saves time and cost. For specialized needs, we train custom models tailored to your data and requirements."
+      },
+      {
+        "question": "How much data do I need for AI development?",
+        "answer": "It depends on the use case. For general AI features using pre-trained models (like OpenAI's GPT), you need minimal data. For custom ML models, we typically need hundreds to thousands of examples. We assess your data during Week 1 and advise accordingly."
+      },
+      {
+        "question": "What's the cost of AI development?",
+        "answer": "AI projects typically range from $20,000-$50,000 depending on complexity. Simple AI integration (using existing models) is on the lower end. Custom model training and complex systems are higher. We provide fixed quotes upfront."
+      },
+      {
+        "question": "Can you add AI to my existing product?",
+        "answer": "Yes! We regularly integrate AI features into existing applications. Common additions include chatbots, recommendation engines, search improvements, content generation, and intelligent automation. We work with your current tech stack."
+      },
+      {
+        "question": "How do you handle AI accuracy and reliability?",
+        "answer": "We set accuracy benchmarks during Week 1, test rigorously during development, and monitor performance post-launch. We also implement fallback systems for edge cases and continuous improvement loops based on real-world performance."
+      },
+      {
+        "question": "What ongoing costs should I expect?",
+        "answer": "AI systems have ongoing costs: API usage (if using services like OpenAI), cloud infrastructure for hosting models, and data storage. We provide detailed cost estimates and optimization strategies to keep expenses predictable and reasonable."
+      }
+    ],
+    "relatedSolutions": ["product-development-agency", "saas-development", "software-development-agency"],
+    "cta": {
+      "primary": "Build Your AI Product",
+      "secondary": "View AI Projects"
+    }
+  },
+  {
+    "slug": "software-product-studio",
+    "name": "Software Product Studio",
+    "title": "Software Product Studio | Modern Product Development",
+    "tagline": "Product Studio for Modern Founders",
+    "metaDescription": "Leading software product studio specializing in rapid product development for startups. We think product-first, build fast, and ship in 4 weeks.",
+    "keywords": [
+      "software product studio",
+      "product studio",
+      "digital product studio",
+      "startup product development",
+      "product development studio"
+    ],
+    "heroHeadline": "Your Product Studio for 0 to 1",
+    "heroSubheading": "We're not an agency. We're a product studio that thinks like founders, builds like engineers, and ships like startups.",
+    "description": "Lime Green Studios is a software product studio built for founders who need to move fast. We combine product thinking, modern technology, and lean methodology to take ideas from concept to launched product in 4 weeks.",
+    "painPoints": [
+      {
+        "title": "Agencies Don't Think Like Product People",
+        "description": "Traditional agencies execute specs. They don't challenge assumptions or think about users.",
+        "solution": "We're product-first. We push back on bad ideas, suggest better alternatives, and build for user outcomes—not just feature lists."
+      },
+      {
+        "title": "Building In-House Takes Too Long",
+        "description": "Hiring a team takes months. Training them takes longer. Your idea goes stale.",
+        "solution": "We're your instant product team. From day one, you have designers, developers, and product thinkers working together."
+      },
+      {
+        "title": "Freelancers Can't Handle Complexity",
+        "description": "Individual freelancers are great for small tasks but can't build complete products.",
+        "solution": "We're a full product studio. Design, development, testing, deployment—we handle everything as a coordinated team."
+      }
+    ],
+    "features": [
+      {
+        "title": "Product Thinking",
+        "description": "We start with the problem, not the solution. We validate ideas before building.",
+        "icon": "thinking"
+      },
+      {
+        "title": "Lean Methodology",
+        "description": "Build the minimum that solves the problem. Launch fast. Iterate based on feedback.",
+        "icon": "lean"
+      },
+      {
+        "title": "User-Centered Design",
+        "description": "Every decision is made with users in mind. Interfaces that convert and delight.",
+        "icon": "user-design"
+      },
+      {
+        "title": "Modern Stack",
+        "description": "We use the latest technologies—React, Next.js, serverless, AI—to build fast and scale.",
+        "icon": "modern-stack"
+      },
+      {
+        "title": "Startup Speed",
+        "description": "We move like a startup because we build for startups. Weekly sprints, rapid iteration.",
+        "icon": "speed"
+      },
+      {
+        "title": "Full Ownership",
+        "description": "You own the code, the design, the product. No vendor lock-in. Full IP transfer.",
+        "icon": "ownership"
+      }
+    ],
+    "process": {
+      "overview": "Our product studio methodology is designed for speed, clarity, and outcomes.",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Product Discovery",
+          "description": "We dig deep into the problem, research users, validate the idea, and define what success looks like.",
+          "deliverables": ["Problem validation", "User research", "Product strategy", "Feature prioritization"]
+        },
+        {
+          "week": "Week 2",
+          "title": "Product Design",
+          "description": "We design the entire product—every screen, every interaction, every edge case.",
+          "deliverables": ["Complete UI/UX", "Interactive prototype", "User flows", "Design system"]
+        },
+        {
+          "week": "Week 3",
+          "title": "Product Development",
+          "description": "We build the product with clean code, proper architecture, and scalability in mind.",
+          "deliverables": ["Working product", "Frontend & backend", "Integrations", "Admin dashboard"]
+        },
+        {
+          "week": "Week 4",
+          "title": "Product Launch",
+          "description": "We test everything, fix bugs, deploy to production, and support your launch.",
+          "deliverables": ["Tested product", "Production deployment", "Launch support", "Analytics setup"]
+        }
+      ]
+    },
+    "caseStudies": [
+      "comealign-genz-dating-app",
+      "silverbox-ai-jewellery-personalization",
+      "supermatch-tamil-nadu-startup-ecosystem",
+      "tanglish-captions-vernacular-video-ai"
+    ],
+    "techStack": {
+      "frontend": ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+      "backend": ["Node.js", "Python", "Serverless Functions"],
+      "database": ["PostgreSQL", "Supabase", "Firebase", "MongoDB"],
+      "cloud": ["Vercel", "AWS", "Google Cloud"],
+      "ai": ["OpenAI", "Anthropic Claude", "Custom ML models"]
+    },
+    "faqs": [
+      {
+        "question": "What makes a product studio different from an agency?",
+        "answer": "Product studios think product-first, not project-first. We care about outcomes (users, revenue, growth) not just deliverables (code, designs). We challenge ideas, suggest alternatives, and act like your technical co-founder—not just a vendor."
+      },
+      {
+        "question": "Who do you typically work with?",
+        "answer": "Founders and startups in the 0-to-1 phase. People with ideas who need to validate quickly, launch MVPs, or build their first product. We love working with ambitious founders who value speed and product thinking."
+      },
+      {
+        "question": "Can you help with product strategy, not just development?",
+        "answer": "Absolutely! Week 1 of our process is all about product strategy. We help define what to build, what NOT to build, who your users are, and how to validate demand before writing code. Many clients come to us with vague ideas—we help sharpen them."
+      },
+      {
+        "question": "Do you only build MVPs or can you scale products?",
+        "answer": "Both! We specialize in MVPs because that's where startups need the most help. But we also help scale products—adding features, optimizing performance, handling growth. Many clients stay with us after launch as we evolve their product."
+      },
+      {
+        "question": "What happens if the product needs changes after launch?",
+        "answer": "We offer post-launch support packages that include bug fixes, feature additions, and ongoing development. Many clients keep us on retainer for 2-3 months after launch as they gather user feedback and iterate."
+      },
+      {
+        "question": "How involved do I need to be during the 4 weeks?",
+        "answer": "Very involved! We have weekly check-ins where we present progress and get your feedback. You're the product owner—we need your input on features, design, and priorities. But we don't need you full-time; a few hours per week is enough."
+      }
+    ],
+    "relatedSolutions": ["product-development-agency", "software-development-agency", "saas-development"],
+    "cta": {
+      "primary": "Start Building Your Product",
+      "secondary": "See What We've Built"
+    }
+  },
+  {
+    "slug": "saas-development",
+    "name": "SaaS Development",
+    "title": "SaaS Development | Build Your SaaS in 4 Weeks",
+    "tagline": "Launch Your SaaS Product Fast",
+    "metaDescription": "Expert SaaS development services. We build scalable SaaS applications with subscription billing, multi-tenancy, and modern architecture in 4 weeks.",
+    "keywords": [
+      "SaaS development",
+      "SaaS application development",
+      "build SaaS product",
+      "SaaS MVP development",
+      "SaaS platform development"
+    ],
+    "heroHeadline": "Build Your SaaS Product in 4 Weeks",
+    "heroSubheading": "From idea to paying customers—we build subscription-based SaaS applications that scale.",
+    "description": "Lime Green Studios specializes in SaaS product development. We build multi-tenant SaaS applications with subscription billing, user management, and scalable architecture that can grow from 10 to 10,000 users.",
+    "painPoints": [
+      {
+        "title": "SaaS Architecture Is Complex",
+        "description": "Multi-tenancy, billing, subscriptions, permissions—SaaS has unique technical challenges.",
+        "solution": "We've built multiple SaaS products. We handle tenant isolation, subscription logic, billing integration, and security from day one."
+      },
+      {
+        "title": "Billing Integration Seems Overwhelming",
+        "description": "Stripe, subscription plans, trials, upgrades, cancellations—it's a lot to figure out.",
+        "solution": "We integrate Stripe or any payment processor, set up subscription plans, handle trials, and build customer portals for self-service."
+      },
+      {
+        "title": "Scaling From 10 to 1000 Users",
+        "description": "Your MVP works for 10 users. But will it handle 1000? 10,000?",
+        "solution": "We build for scale from day one. Proper database design, caching strategies, and cloud infrastructure that grows with you."
+      }
+    ],
+    "features": [
+      {
+        "title": "Multi-Tenant Architecture",
+        "description": "Secure data isolation between customers while sharing the same application infrastructure.",
+        "icon": "multi-tenant"
+      },
+      {
+        "title": "Subscription Billing",
+        "description": "Stripe integration with multiple pricing tiers, trials, upgrades, and automated invoicing.",
+        "icon": "billing"
+      },
+      {
+        "title": "User Management",
+        "description": "Authentication, role-based permissions, team management, and SSO support.",
+        "icon": "users"
+      },
+      {
+        "title": "Admin Dashboard",
+        "description": "Powerful admin panel to manage users, subscriptions, analytics, and system health.",
+        "icon": "dashboard"
+      },
+      {
+        "title": "API & Integrations",
+        "description": "RESTful APIs for third-party integrations and webhook support for automation.",
+        "icon": "integrations"
+      },
+      {
+        "title": "Analytics & Reporting",
+        "description": "Built-in analytics for tracking usage, revenue, churn, and user behavior.",
+        "icon": "analytics"
+      }
+    ],
+    "process": {
+      "overview": "Our SaaS development process delivers production-ready subscription software in 4 weeks.",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "SaaS Planning",
+          "description": "We define your SaaS model, pricing strategy, core features, and technical architecture.",
+          "deliverables": ["SaaS business model", "Pricing strategy", "Multi-tenant architecture", "Database design"]
+        },
+        {
+          "week": "Week 2",
+          "title": "Core SaaS Features",
+          "description": "We build authentication, user management, subscription logic, and billing integration.",
+          "deliverables": ["User authentication", "Subscription system", "Stripe integration", "Admin panel"]
+        },
+        {
+          "week": "Week 3",
+          "title": "Feature Development",
+          "description": "We build your unique SaaS features that differentiate you from competitors.",
+          "deliverables": ["Core functionality", "User dashboard", "API endpoints", "Integrations"]
+        },
+        {
+          "week": "Week 4",
+          "title": "Testing & Launch",
+          "description": "We test payment flows, security, performance, and deploy your SaaS to production.",
+          "deliverables": ["Security testing", "Payment testing", "Production deployment", "Monitoring"]
+        }
+      ]
+    },
+    "caseStudies": [
+      "tanglish-captions-vernacular-video-ai",
+      "comealign-genz-dating-app"
+    ],
+    "techStack": {
+      "frontend": ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+      "backend": ["Node.js", "Next.js API Routes", "Python"],
+      "database": ["PostgreSQL", "Supabase", "MongoDB"],
+      "payments": ["Stripe", "Paddle", "Lemon Squeezy"],
+      "auth": ["NextAuth", "Clerk", "Auth0"],
+      "cloud": ["Vercel", "AWS", "Railway"]
+    },
+    "faqs": [
+      {
+        "question": "What's included in SaaS development?",
+        "answer": "Everything you need to run a subscription business: user authentication, subscription billing (Stripe integration), multi-tenant database architecture, admin dashboard, user roles and permissions, customer portal, and analytics. You get a complete SaaS platform ready for paying customers."
+      },
+      {
+        "question": "How do you handle multi-tenant data isolation?",
+        "answer": "We use proven multi-tenant patterns: either shared database with tenant ID filtering (cost-effective for most SaaS) or separate schemas/databases (for enterprise clients). We ensure complete data isolation so customers can never see each other's data."
+      },
+      {
+        "question": "Can you integrate with my existing payment processor?",
+        "answer": "Yes! While we primarily use Stripe (it's the industry standard), we can integrate with Paddle, Lemon Squeezy, or any payment processor you prefer. We handle subscription creation, upgrades, downgrades, and cancellations automatically."
+      },
+      {
+        "question": "What about free trials and pricing tiers?",
+        "answer": "We build complete pricing tier logic: free trials (14 days, 30 days, etc.), multiple subscription plans (Starter, Pro, Enterprise), feature gates based on plan, and smooth upgrade/downgrade flows. All integrated with your payment processor."
+      },
+      {
+        "question": "How do you ensure my SaaS can scale?",
+        "answer": "We use serverless architecture (auto-scales with demand), proper database indexing, caching strategies (Redis), and CDN for assets. We also design the database schema to handle millions of records efficiently. Your SaaS can grow without architectural rewrites."
+      },
+      {
+        "question": "Do you provide ongoing SaaS maintenance?",
+        "answer": "Yes! SaaS products need ongoing attention: bug fixes, feature updates, security patches, and optimization. We offer monthly retainer packages starting at $2,000/month for continued development and support."
+      }
+    ],
+    "relatedSolutions": ["product-development-agency", "software-development-agency", "ai-development-agency"],
+    "cta": {
+      "primary": "Launch Your SaaS",
+      "secondary": "View SaaS Projects"
+    }
+  },
+  {
+    "slug": "erp-development",
+    "name": "ERP Development",
+    "title": "ERP Development | Custom ERP Systems in 4 Weeks",
+    "tagline": "Enterprise Resource Planning That Actually Works",
+    "metaDescription": "Custom ERP development services for businesses. We build tailored ERP systems for inventory, operations, finance, and HR management in 4 weeks.",
+    "keywords": [
+      "ERP development",
+      "custom ERP system",
+      "ERP software development",
+      "enterprise resource planning",
+      "ERP implementation"
+    ],
+    "heroHeadline": "Build Your Custom ERP System",
+    "heroSubheading": "Stop forcing your business into generic ERP software. Get a system built for your exact processes.",
+    "description": "Lime Green Studios builds custom ERP systems tailored to your business. Whether you need inventory management, order processing, financial tracking, or custom workflows, we build ERP solutions that fit your operations perfectly.",
+    "painPoints": [
+      {
+        "title": "Off-the-Shelf ERP Doesn't Fit",
+        "description": "SAP, Oracle, and generic ERPs force you to change your business to fit their software.",
+        "solution": "We build custom ERP systems molded to your exact processes, workflows, and business rules. Your ERP adapts to you, not the other way around."
+      },
+      {
+        "title": "Implementation Takes Years",
+        "description": "Traditional ERP implementations drag on for 12-24 months and cost millions.",
+        "solution": "We deliver MVP ERP systems in 4 weeks with core modules working. We then iterate and add modules based on your priorities."
+      },
+      {
+        "title": "Too Complex for Your Team",
+        "description": "Enterprise ERPs require extensive training. Your team spends months learning the system.",
+        "solution": "We design intuitive interfaces that your team can learn in days. Custom workflows match how your team already works."
+      }
+    ],
+    "features": [
+      {
+        "title": "Inventory Management",
+        "description": "Track stock levels, manage warehouses, automate reordering, and handle multiple locations.",
+        "icon": "inventory"
+      },
+      {
+        "title": "Order Processing",
+        "description": "Manage orders from creation to fulfillment, with automated workflows and status tracking.",
+        "icon": "orders"
+      },
+      {
+        "title": "Financial Management",
+        "description": "Track expenses, revenue, invoicing, payments, and generate financial reports.",
+        "icon": "finance"
+      },
+      {
+        "title": "Custom Workflows",
+        "description": "Automate your unique business processes with custom workflow engines.",
+        "icon": "workflows"
+      },
+      {
+        "title": "Reporting & Analytics",
+        "description": "Real-time dashboards, custom reports, and data exports for business intelligence.",
+        "icon": "reporting"
+      },
+      {
+        "title": "Integration Capabilities",
+        "description": "Connect with existing tools, third-party services, and legacy systems via APIs.",
+        "icon": "integration"
+      }
+    ],
+    "process": {
+      "overview": "Our ERP development process focuses on understanding your business first, then building the system.",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Business Process Mapping",
+          "description": "We map your current processes, identify pain points, and design the ERP architecture.",
+          "deliverables": ["Process documentation", "Module definition", "Database design", "Integration plan"]
+        },
+        {
+          "week": "Week 2",
+          "title": "Core Module Development",
+          "description": "We build the most critical ERP module first (usually inventory or orders) with full functionality.",
+          "deliverables": ["Primary module", "User interface", "Data entry forms", "Basic reporting"]
+        },
+        {
+          "week": "Week 3",
+          "title": "Additional Modules",
+          "description": "We add secondary modules and integrate them with the core system.",
+          "deliverables": ["Secondary modules", "Module integration", "Workflow automation", "User roles"]
+        },
+        {
+          "week": "Week 4",
+          "title": "Testing & Deployment",
+          "description": "We test with real data, train your team, and deploy the system for production use.",
+          "deliverables": ["System testing", "User training", "Data migration", "Production deployment"]
+        }
+      ]
+    },
+    "caseStudies": [],
+    "techStack": {
+      "frontend": ["React", "Next.js", "Ant Design", "Material UI"],
+      "backend": ["Node.js", "Python", "PostgreSQL"],
+      "database": ["PostgreSQL", "MySQL", "MongoDB"],
+      "cloud": ["AWS", "Google Cloud", "Azure"],
+      "integration": ["REST APIs", "GraphQL", "Webhooks"]
+    },
+    "faqs": [
+      {
+        "question": "How is custom ERP different from Odoo or SAP?",
+        "answer": "Custom ERP is built specifically for your business processes. Odoo and SAP are configurable but force you into their structure. With custom ERP, we code exactly what you need—no more, no less. You get precisely the workflows, reports, and features you want."
+      },
+      {
+        "question": "Can you build ERP for specific industries?",
+        "answer": "Yes! We've built ERP systems for manufacturing, retail, distribution, healthcare, and services. We learn your industry's specific requirements (like compliance, regulatory needs, or unique workflows) and build accordingly."
+      },
+      {
+        "question": "What about data migration from our current system?",
+        "answer": "We handle data migration as part of the implementation. We extract data from your current system (Excel, legacy software, or another ERP), clean it, and import it into the new system. We ensure zero data loss during the transition."
+      },
+      {
+        "question": "Can the ERP integrate with our existing software?",
+        "answer": "Absolutely. We build APIs and integrations for accounting software (QuickBooks, Xero), CRMs (Salesforce, HubSpot), e-commerce platforms (Shopify, WooCommerce), and payment processors (Stripe, PayPal). If it has an API, we can integrate."
+      },
+      {
+        "question": "How much does custom ERP development cost?",
+        "answer": "ERP projects typically range from $25,000-$75,000+ depending on complexity and number of modules. A basic 2-3 module ERP (inventory + orders + finance) starts around $30,000. We provide detailed quotes after understanding your requirements."
+      },
+      {
+        "question": "What ongoing support do you provide?",
+        "answer": "We offer maintenance packages that include bug fixes, feature additions, performance optimization, and technical support. Most clients keep us on monthly retainer ($2,500-$5,000/month) for continued development and support."
+      }
+    ],
+    "relatedSolutions": ["hrms-development", "software-development-agency", "product-development-agency"],
+    "cta": {
+      "primary": "Build Your ERP System",
+      "secondary": "Discuss Your Requirements"
+    }
+  },
+  {
+    "slug": "hrms-development",
+    "name": "HRMS Development",
+    "title": "HRMS Development | HR Management System in 4 Weeks",
+    "tagline": "Modern HR Software for Modern Teams",
+    "metaDescription": "Custom HRMS development services. We build HR management systems with employee records, payroll, attendance, leave management, and performance tracking.",
+    "keywords": [
+      "HRMS development",
+      "HR management system",
+      "HR software development",
+      "custom HRMS",
+      "human resource management system"
+    ],
+    "heroHeadline": "Build Your Custom HRMS",
+    "heroSubheading": "Employee management, payroll, attendance, and HR workflows—all in one system built for your company.",
+    "description": "Lime Green Studios builds custom HRMS (Human Resource Management Systems) tailored to your company's HR processes. From employee onboarding to payroll to performance reviews, we create HR software that simplifies people management.",
+    "painPoints": [
+      {
+        "title": "Generic HR Software Doesn't Fit",
+        "description": "BambooHR and Workday are built for US companies. Your local payroll rules and workflows don't fit.",
+        "solution": "We build HRMS that follows your country's labor laws, tax rules, and payroll requirements. Custom workflows for your exact HR processes."
+      },
+      {
+        "title": "Too Many Spreadsheets",
+        "description": "Employee data in Excel, attendance in one app, payroll in another. Nothing talks to each other.",
+        "solution": "We build unified HRMS where everything is connected. One system for all HR data with automated workflows between modules."
+      },
+      {
+        "title": "Expensive Enterprise Solutions",
+        "description": "Enterprise HRMS costs thousands per month and requires a full-time admin.",
+        "solution": "Custom HRMS built for your exact needs, with one-time development cost and minimal ongoing fees. No per-user pricing trap."
+      }
+    ],
+    "features": [
+      {
+        "title": "Employee Database",
+        "description": "Centralized employee records with personal details, documents, employment history, and more.",
+        "icon": "employee-db"
+      },
+      {
+        "title": "Attendance & Leave",
+        "description": "Track attendance, manage leave requests, approve time-off, and generate attendance reports.",
+        "icon": "attendance"
+      },
+      {
+        "title": "Payroll Management",
+        "description": "Calculate salaries, deductions, taxes, and generate payslips automatically based on your rules.",
+        "icon": "payroll"
+      },
+      {
+        "title": "Performance Management",
+        "description": "Set goals, conduct reviews, track performance metrics, and manage appraisals.",
+        "icon": "performance"
+      },
+      {
+        "title": "Recruitment & Onboarding",
+        "description": "Post jobs, track applicants, manage interviews, and automate new hire onboarding.",
+        "icon": "recruitment"
+      },
+      {
+        "title": "Reports & Analytics",
+        "description": "HR dashboards, headcount reports, turnover analysis, and custom HR metrics.",
+        "icon": "hr-analytics"
+      }
+    ],
+    "process": {
+      "overview": "Our HRMS development process focuses on your specific HR workflows and compliance requirements.",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "HR Process Analysis",
+          "description": "We document your HR workflows, payroll rules, leave policies, and compliance requirements.",
+          "deliverables": ["HR process documentation", "Payroll calculation rules", "Module prioritization", "Database design"]
+        },
+        {
+          "week": "Week 2",
+          "title": "Core HR Module",
+          "description": "We build the employee database, attendance tracking, and leave management system.",
+          "deliverables": ["Employee management", "Attendance tracking", "Leave requests", "HR dashboard"]
+        },
+        {
+          "week": "Week 3",
+          "title": "Payroll & Automation",
+          "description": "We build payroll calculation engine, integrate with attendance, and automate salary generation.",
+          "deliverables": ["Payroll engine", "Salary calculation", "Payslip generation", "Deduction rules"]
+        },
+        {
+          "week": "Week 4",
+          "title": "Testing & Deployment",
+          "description": "We test with real employee data, train HR team, and deploy the system.",
+          "deliverables": ["System testing", "Data migration", "User training", "Production deployment"]
+        }
+      ]
+    },
+    "caseStudies": [],
+    "techStack": {
+      "frontend": ["React", "Next.js", "Ant Design", "Tailwind CSS"],
+      "backend": ["Node.js", "Python", "PostgreSQL"],
+      "database": ["PostgreSQL", "MySQL"],
+      "cloud": ["AWS", "Google Cloud", "Azure"],
+      "tools": ["PDF generation", "Excel exports", "Email automation"]
+    },
+    "faqs": [
+      {
+        "question": "Can you build HRMS for my country's labor laws?",
+        "answer": "Yes! We build HRMS with country-specific payroll rules, tax calculations, leave policies, and compliance requirements. We work with you and your HR team to understand local regulations and build the system accordingly."
+      },
+      {
+        "question": "What's included in the HRMS system?",
+        "answer": "Typical HRMS includes employee database, attendance tracking, leave management, payroll calculation, payslip generation, performance reviews, document management, and HR reports. We customize based on your priorities."
+      },
+      {
+        "question": "Can employees access the HRMS?",
+        "answer": "Yes! We build employee self-service portals where employees can view their profiles, apply for leave, download payslips, update personal information, and view attendance—reducing HR's administrative burden."
+      },
+      {
+        "question": "How do you handle payroll calculations?",
+        "answer": "We build custom payroll engines based on your salary structure, deductions (taxes, insurance, loans), allowances, and bonuses. The system auto-calculates salaries based on attendance and approved leaves. We handle complex scenarios like pro-rated salaries and mid-month joinings."
+      },
+      {
+        "question": "Can the HRMS integrate with accounting software?",
+        "answer": "Yes! We can integrate with accounting systems like QuickBooks, Tally, Zoho Books, and more. Payroll data can automatically sync to your accounting software for seamless financial management."
+      },
+      {
+        "question": "What's the cost of custom HRMS development?",
+        "answer": "HRMS projects typically range from $20,000-$50,000 depending on complexity and number of modules. A basic system (employees + attendance + leave + payroll) starts around $25,000. Enterprise systems with recruitment, performance, and advanced features cost more."
+      }
+    ],
+    "relatedSolutions": ["erp-development", "software-development-agency", "lms-development"],
+    "cta": {
+      "primary": "Build Your HRMS",
+      "secondary": "Discuss Your HR Needs"
+    }
+  },
+  {
+    "slug": "hms-development",
+    "name": "HMS Development",
+    "title": "HMS Development | Healthcare Management System",
+    "tagline": "Healthcare Software That Improves Patient Care",
+    "metaDescription": "Custom HMS development services. We build hospital management systems, clinic software, and healthcare applications with patient records, appointments, and billing.",
+    "keywords": [
+      "HMS development",
+      "hospital management system",
+      "healthcare software development",
+      "clinic management software",
+      "medical software development"
+    ],
+    "heroHeadline": "Build Your Hospital Management System",
+    "heroSubheading": "Patient management, appointments, billing, and medical records—all in one secure healthcare platform.",
+    "description": "Lime Green Studios builds custom Hospital Management Systems (HMS) and healthcare software. From small clinics to multi-specialty hospitals, we create HIPAA-compliant systems that improve patient care and streamline operations.",
+    "painPoints": [
+      {
+        "title": "Paper Records Are Inefficient",
+        "description": "Managing patient records, prescriptions, and medical history on paper is slow and error-prone.",
+        "solution": "We digitize everything. Electronic medical records, prescription history, test results, and patient notes—all searchable and accessible instantly."
+      },
+      {
+        "title": "No Integration Between Departments",
+        "description": "Reception, doctors, pharmacy, and billing all use different systems that don't talk to each other.",
+        "solution": "We build unified HMS where all departments share the same patient data. When a doctor prescribes, pharmacy sees it. When pharmacy dispenses, billing knows."
+      },
+      {
+        "title": "Generic Hospital Software Is Too Complex",
+        "description": "Enterprise HMS is built for 500-bed hospitals. Small clinics can't afford or use them.",
+        "solution": "We build HMS scaled to your needs. Whether you're a 5-doctor clinic or 50-bed hospital, we build exactly what you need—no bloat."
+      }
+    ],
+    "features": [
+      {
+        "title": "Patient Management",
+        "description": "Complete patient records, medical history, allergies, prescriptions, and visit tracking.",
+        "icon": "patient"
+      },
+      {
+        "title": "Appointment Scheduling",
+        "description": "Online booking, doctor schedules, calendar management, and automated reminders via SMS/email.",
+        "icon": "appointments"
+      },
+      {
+        "title": "Electronic Medical Records",
+        "description": "Digital patient records, diagnosis history, treatment plans, and medical notes.",
+        "icon": "emr"
+      },
+      {
+        "title": "Billing & Invoicing",
+        "description": "Generate bills, track payments, insurance claims, and financial reporting.",
+        "icon": "billing-hms"
+      },
+      {
+        "title": "Pharmacy Management",
+        "description": "Inventory tracking, prescription management, drug database, and expiry alerts.",
+        "icon": "pharmacy"
+      },
+      {
+        "title": "Lab & Diagnostics",
+        "description": "Test orders, results entry, report generation, and integration with lab equipment.",
+        "icon": "lab"
+      }
+    ],
+    "process": {
+      "overview": "Our HMS development process ensures compliance, security, and usability for healthcare professionals.",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Healthcare Workflow Analysis",
+          "description": "We map your hospital/clinic workflows, understand compliance requirements, and design the system.",
+          "deliverables": ["Workflow documentation", "Module planning", "Compliance checklist", "Database design"]
+        },
+        {
+          "week": "Week 2",
+          "title": "Patient & Appointment Module",
+          "description": "We build patient registration, medical records, and appointment scheduling system.",
+          "deliverables": ["Patient database", "Appointment system", "Doctor schedules", "Patient portal"]
+        },
+        {
+          "week": "Week 3",
+          "title": "Billing & Department Modules",
+          "description": "We build billing, pharmacy, and lab modules with full integration.",
+          "deliverables": ["Billing system", "Pharmacy module", "Lab module", "Department integration"]
+        },
+        {
+          "week": "Week 4",
+          "title": "Security & Deployment",
+          "description": "We implement security measures, test thoroughly, train staff, and deploy the system.",
+          "deliverables": ["Security implementation", "HIPAA compliance", "Staff training", "Production deployment"]
+        }
+      ]
+    },
+    "caseStudies": [],
+    "techStack": {
+      "frontend": ["React", "Next.js", "Ant Design"],
+      "backend": ["Node.js", "Python", "PostgreSQL"],
+      "database": ["PostgreSQL", "Encrypted storage"],
+      "cloud": ["AWS HIPAA", "Google Cloud Healthcare API"],
+      "security": ["End-to-end encryption", "Role-based access", "Audit logs"]
+    },
+    "faqs": [
+      {
+        "question": "Is the HMS HIPAA compliant?",
+        "answer": "Yes! We build healthcare systems with HIPAA compliance in mind: encrypted data storage, secure access controls, audit logs, and patient data privacy. We use HIPAA-compliant cloud infrastructure and follow healthcare data security best practices."
+      },
+      {
+        "question": "Can patients access their records online?",
+        "answer": "Yes! We build patient portals where patients can view their medical history, upcoming appointments, test results, prescriptions, and bills. Patients can also book appointments online and communicate with doctors securely."
+      },
+      {
+        "question": "Does the HMS work for multi-specialty hospitals?",
+        "answer": "Absolutely. We build HMS for multi-specialty hospitals with department-specific workflows, multiple doctor schedules, different billing rates, and specialized modules (like radiology, surgery, ICU management). The system scales to your complexity."
+      },
+      {
+        "question": "Can you integrate with diagnostic equipment?",
+        "answer": "Yes! We can integrate with lab equipment, X-ray machines, ECG devices, and other diagnostic tools that support HL7 or DICOM standards. Test results automatically populate in patient records without manual entry."
+      },
+      {
+        "question": "What about insurance claim management?",
+        "answer": "We build insurance modules that handle claim generation, insurance panel management, cashless approvals, and claim tracking. We can integrate with insurance company APIs where available or provide manual workflow management."
+      },
+      {
+        "question": "How much does HMS development cost?",
+        "answer": "HMS projects typically range from $30,000-$80,000+ depending on hospital size and features. A basic clinic system (patients + appointments + billing + EMR) starts around $30,000. Full hospital systems with pharmacy, lab, inventory cost more."
+      }
+    ],
+    "relatedSolutions": ["erp-development", "software-development-agency", "lms-development"],
+    "cta": {
+      "primary": "Build Your HMS",
+      "secondary": "Discuss Your Healthcare Needs"
+    }
+  },
+  {
+    "slug": "lms-development",
+    "name": "LMS Development",
+    "title": "LMS Development | Learning Management System",
+    "tagline": "EdTech Platforms That Scale Learning",
+    "metaDescription": "Custom LMS development services. We build learning management systems with course creation, student management, assessments, and online education platforms.",
+    "keywords": [
+      "LMS development",
+      "learning management system",
+      "EdTech platform development",
+      "online learning platform",
+      "eLearning software development"
+    ],
+    "heroHeadline": "Build Your Learning Management System",
+    "heroSubheading": "Course creation, student enrollment, assessments, and certificates—complete LMS for online education.",
+    "description": "Lime Green Studios builds custom Learning Management Systems (LMS) for online courses, corporate training, and educational institutions. From course creation to student progress tracking, we build platforms that make online learning effective.",
+    "painPoints": [
+      {
+        "title": "Generic LMS Platforms Are Limited",
+        "description": "Moodle and Canvas are free but clunky. Paid LMS platforms charge per student and lock you in.",
+        "solution": "We build custom LMS with exactly the features you need. No per-student fees. You own the platform. Scale unlimited students without cost increase."
+      },
+      {
+        "title": "No Support for Your Teaching Style",
+        "description": "You teach live cohorts, not self-paced courses. Your LMS doesn't support your model.",
+        "solution": "We build LMS for any teaching model: self-paced courses, live cohorts, hybrid learning, corporate training, or school/university systems."
+      },
+      {
+        "title": "Poor Student Experience",
+        "description": "Students drop off because the platform is confusing and outdated.",
+        "solution": "We design modern, intuitive interfaces that students love. Video streaming, interactive content, gamification, and mobile-first design."
+      }
+    ],
+    "features": [
+      {
+        "title": "Course Management",
+        "description": "Create courses, organize modules, upload videos, add quizzes, and manage course content easily.",
+        "icon": "courses"
+      },
+      {
+        "title": "Student Enrollment",
+        "description": "Student registration, course enrollment, payment integration, and automated onboarding.",
+        "icon": "enrollment"
+      },
+      {
+        "title": "Video Streaming",
+        "description": "Secure video hosting, adaptive streaming, progress tracking, and DRM protection to prevent piracy.",
+        "icon": "video"
+      },
+      {
+        "title": "Assessments & Quizzes",
+        "description": "Create quizzes, assignments, and exams with auto-grading and detailed analytics.",
+        "icon": "assessments"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Track student progress, completion rates, quiz scores, and engagement metrics.",
+        "icon": "progress"
+      },
+      {
+        "title": "Certificates",
+        "description": "Auto-generate completion certificates with custom designs and verification codes.",
+        "icon": "certificates"
+      }
+    ],
+    "process": {
+      "overview": "Our LMS development process creates engaging learning platforms tailored to your teaching methodology.",
+      "steps": [
+        {
+          "week": "Week 1",
+          "title": "Learning Model Design",
+          "description": "We understand your teaching model, content structure, and student journey to design the perfect LMS.",
+          "deliverables": ["Course structure", "Student journey map", "Feature planning", "Database design"]
+        },
+        {
+          "week": "Week 2",
+          "title": "Course & Content Module",
+          "description": "We build course creation tools, video upload, content organization, and student-facing course pages.",
+          "deliverables": ["Course builder", "Video hosting", "Content player", "Student dashboard"]
+        },
+        {
+          "week": "Week 3",
+          "title": "Assessment & Engagement",
+          "description": "We build quizzes, assignments, progress tracking, and gamification features.",
+          "deliverables": ["Quiz system", "Progress tracking", "Assignments", "Discussion forums"]
+        },
+        {
+          "week": "Week 4",
+          "title": "Payment & Launch",
+          "description": "We integrate payments, set up email automation, test thoroughly, and deploy the LMS.",
+          "deliverables": ["Payment integration", "Email automation", "Certificate generation", "Production deployment"]
+        }
+      ]
+    },
+    "caseStudies": [],
+    "techStack": {
+      "frontend": ["React", "Next.js", "Tailwind CSS", "Video.js"],
+      "backend": ["Node.js", "Python", "PostgreSQL"],
+      "video": ["Vimeo API", "Cloudflare Stream", "AWS S3"],
+      "payments": ["Stripe", "Razorpay", "PayPal"],
+      "cloud": ["Vercel", "AWS", "DigitalOcean"]
+    },
+    "faqs": [
+      {
+        "question": "Can you build LMS for live cohort-based courses?",
+        "answer": "Yes! We build LMS for both self-paced and cohort-based learning. For cohorts, we add features like batch management, live class scheduling, cohort-specific content unlocking, and peer interaction tools."
+      },
+      {
+        "question": "How do you handle video content protection?",
+        "answer": "We use secure video hosting with DRM (Digital Rights Management) to prevent video downloads. We also implement watermarking, domain restrictions, and geo-blocking if needed. Videos stream securely without allowing easy piracy."
+      },
+      {
+        "question": "Can students interact with instructors?",
+        "answer": "Absolutely. We build discussion forums, Q&A sections, direct messaging, and even live chat features. For live courses, we can integrate with Zoom or build custom video conferencing. Students can ask questions and get instructor feedback."
+      },
+      {
+        "question": "Does the LMS support different pricing models?",
+        "answer": "Yes! We support one-time course purchase, subscription access (monthly/annual all-access passes), pay-per-course, free trials, and bundled courses. We integrate with Stripe or Razorpay for automated billing."
+      },
+      {
+        "question": "Can you integrate with Zoom or Google Meet?",
+        "answer": "Yes! For live classes, we integrate with Zoom, Google Meet, or Microsoft Teams. Students can join live sessions directly from the LMS. Recording links automatically appear in course content after the session."
+      },
+      {
+        "question": "What's the cost of LMS development?",
+        "answer": "LMS projects range from $20,000-$60,000 depending on features. A basic LMS (courses + videos + quizzes + payments) starts around $25,000. Advanced features like live classes, mobile apps, gamification, and AI add to the cost."
+      }
+    ],
+    "relatedSolutions": ["saas-development", "software-development-agency", "product-development-agency"],
+    "cta": {
+      "primary": "Build Your LMS",
+      "secondary": "Discuss Your EdTech Idea"
+    }
+  }
+]

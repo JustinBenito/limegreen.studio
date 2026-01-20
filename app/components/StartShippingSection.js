@@ -9,14 +9,43 @@ import ContactButton from "@/components/ui/ContactButton";
 export default function StartShippingSection() {
   const [email, setEmail] = useState("");
   const [error, setError] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleContactClick = useCallback(
-    (e) => {
+    async (e) => {
       if (!email || !EmailValidator.validate(email)) {
         e.preventDefault();
         setError(true);
-      } else {
-        setError(false);
+        return;
+      }
+
+      setError(false);
+      setIsSubmitting(true);
+
+      try {
+        // Send lead to Google Sheets via Apps Script
+        await fetch(
+          "https://script.google.com/macros/s/AKfycbwSeh7__z3i_RoKzKsCGmztqRyc9vIj9QRgcxDvhrD1ntxaC6wYD4Cuax7NQf1gbg9cTA/exec",
+          {
+            method: "POST",
+            mode: "no-cors",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              email: email,
+              time: new Date().toISOString(),
+            }),
+          }
+        );
+
+        // Note: no-cors mode doesn't allow reading the response
+        // but the request will still be sent to the server
+        console.log("Lead submitted successfully");
+      } catch (error) {
+        console.error("Error submitting lead:", error);
+      } finally {
+        setIsSubmitting(false);
       }
     },
     [email]
@@ -72,7 +101,7 @@ export default function StartShippingSection() {
               viewport={{ once: true, amount: 0.3 }}
               className="space-y-6 md:space-y-8 w-full text-center md:text-left"
             >
-              <motion.h1
+              <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
@@ -80,8 +109,11 @@ export default function StartShippingSection() {
                 className="font-coolvetica tracking-wide text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.1] drop-shadow-2xl whitespace-nowrap"
               >
                 Start Shipping
-              </motion.h1>
-
+                <p className="text-white text-xl sm:text-2xl md:text-3xl font-medium tracking-tight">
+                  Turn your ideas into Products.
+                </p>
+              </motion.div>
+                
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -89,9 +121,7 @@ export default function StartShippingSection() {
                 viewport={{ once: true }}
                 className="space-y-2 md:space-y-3"
               >
-                <p className="text-white text-xl sm:text-2xl md:text-3xl font-medium tracking-tight">
-                  Turn your ideas into Products.
-                </p>
+
                 <p className="text-white/90 text-lg sm:text-xl md:text-2xl font-light">
                   Stop sleeping over it and start shipping
                 </p>
@@ -118,9 +148,10 @@ export default function StartShippingSection() {
                       email || "[Please Insert Email]"
                     }`}
                     onClick={handleContactClick}
-                    className="w-full h-full flex items-center justify-center rounded-full bg-gradient-to-t from-[#111827] to-[#3D578D] px-8 py-4 md:px-8 md:py-4 text-white text-base font-semibold transition-all hover:opacity-90 shadow-lg"
+                    className="w-full h-full flex items-center justify-center rounded-full bg-gradient-to-t from-[#111827] to-[#3D578D] px-8 py-4 md:px-8 md:py-4 text-white text-base font-semibold transition-all hover:opacity-90 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+                    disabled={isSubmitting}
                   >
-                    Contact Us
+                    {isSubmitting ? "Submitting..." : "Contact Us"}
                   </ContactButton>
                 </div>
                 {error && (

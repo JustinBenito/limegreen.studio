@@ -1,13 +1,18 @@
 "use client";
 
-import React from "react";
-import { motion } from "framer-motion";
-import Link from "next/link";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import BlogCard from "./cards/BlogCard";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 
 const BlogsSectionClient = React.memo(({ blogs = [] }) => {
-  const clientCount = 12;
+  const clientCount = 15;
+  const [showAll, setShowAll] = useState(false);
+
+  // Determine how many blogs to show
+  const visibleBlogs = showAll ? blogs : blogs.slice(0, 3);
+  const hasMoreBlogs = blogs.length > 3;
+
   return (
     <motion.section
       id="blogs"
@@ -31,12 +36,12 @@ const BlogsSectionClient = React.memo(({ blogs = [] }) => {
             className="inline-flex items-center justify-center gap-2 text-lime-600 font-semibold tracking-wide uppercase text-xs md:text-sm"
           >
             <span className="w-8 h-[2px] bg-lime-500 rounded-full" />
-            What’s cooking
+            What's cooking
             <span className="w-8 h-[2px] bg-lime-500 rounded-full" />
           </motion.div>
           <h2 className="font-coolvetica tracking-wide text-3xl md:text-4xl lg:text-5xl text-gray-900 font-normal leading-tight">
             Latest{" "}
-            <span className="bg-gradient-to-r from-lime-400 to-lime-200 text-gray-900 px-4 md:px-5 py-1 md:py-2 inline-block font-bold rounded-lg shadow-lg shadow-lime-500/20">
+            <span className="bg-gradient-to-r from-lime-400 to-lime-200 text-gray-900 px-4 md:px-5 py-1 md:py-2 inline-block font-bold rounded-lg">
               Blogs
             </span>
           </h2>
@@ -46,27 +51,50 @@ const BlogsSectionClient = React.memo(({ blogs = [] }) => {
           </p>
         </div>
 
-        {/* Grid: All blogs on desktop, only first on mobile */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
-          {blogs.map((blog, index) => (
-            <div
-              key={blog.slug}
-              className={`${index > 0 ? "hidden md:block" : "block"} w-full`}
-            >
-              <BlogCard {...blog} />
-            </div>
-          ))}
+        {/* Grid: Always show 3 columns on desktop */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
+          <AnimatePresence>
+            {visibleBlogs.map((blog, index) => (
+              <motion.div
+                key={blog.slug}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.3, delay: index * 0.1 }}
+                className="w-full"
+              >
+                <BlogCard {...blog} />
+              </motion.div>
+            ))}
+          </AnimatePresence>
         </div>
 
-        {/* This button is only visible on mobile as requested */}
-        <div className="mt-10 flex justify-center mb-12 md:hidden">
-          <Link
-            href="/blogs"
-            className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-black text-white font-semibold shadow-sm hover:opacity-90 transition"
-          >
-            View all blogs
-          </Link>
-        </div>
+        {/* Read More/Show Less button */}
+        {hasMoreBlogs && (
+          <div className="mt-10 flex justify-center mb-12">
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className="group inline-flex items-center gap-2 px-6 py-3 text-lime-600 hover:text-lime-700 font-semibold text-base transition-all duration-200 border border-lime-300 hover:border-lime-400 rounded-full hover:shadow-md"
+            >
+              {showAll ? "Show Less" : "Read More"}
+              <svg
+                className={`w-4 h-4 transition-transform duration-200 ${
+                  showAll ? "rotate-180" : ""
+                }`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+          </div>
+        )}
 
         <div className="pt-16 md:pt-24 lg:pt-32 pb-4 md:pb-8 px-4">
           <ScrollReveal className="font-coolvetica tracking-tight text-3xl md:text-5xl lg:text-7xl text-black leading-[1.2] md:leading-[1.1] max-w-6xl mx-auto text-center">

@@ -11,6 +11,7 @@ import RocketFlight from "@/components/ui/RocketFlight";
 import PriceSection from "./components/PriceSection";
 import ComparisonTable from "./components/ComparisonTable";
 import Services from "./components/Services";
+import SolutionsShowcase from "./components/SolutionsShowcase";
 
 export default function Home() {
   return (
@@ -22,10 +23,11 @@ export default function Home() {
         <Hero />
         <Second />
         <Services />
+        <SolutionsShowcase />
         <ComparisonTable />
         <Process />
         <PriceSection />
-        <Test />
+        {/* <Test /> */}
         <BlogsSection />
         <StartShippingSection />
         <Footer />

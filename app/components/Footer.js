@@ -3,8 +3,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import {
-  Facebook,
-  Twitter,
   Instagram,
   Linkedin,
   ArrowUpRight,
@@ -13,15 +11,23 @@ import {
 const footerLinks = {
   navigation: [
     { name: "Home", href: "/" },
-    { name: "Services", href: "/services" },
     { name: "Blogs", href: "/blogs" },
-    { name: "Contact", href: "/contact" },
+    { name: "Case Studies", href: "/case-studies" },
+    { name: "About", href: "/about" },
+    { name: "Privacy", href: "/privacy" },
+    { name: "Terms", href: "/terms" },
+  ],
+  solutions: [
+    { name: "Product Development Agency", href: "/solutions/product-development-agency" },
+    { name: "Software Development Agency", href: "/solutions/software-development-agency" },
+    { name: "AI Development Agency", href: "/solutions/ai-development-agency" },
+    { name: "Software Product Studio", href: "/solutions/software-product-studio" },
+    { name: "SaaS Development", href: "/solutions/saas-development" },
+    { name: "ERP Development", href: "/solutions/erp-development" },
   ],
   socials: [
-    { name: "Instagram", href: "https://instagram.com", icon: Instagram },
-    { name: "Twitter", href: "https://twitter.com", icon: Twitter },
-    { name: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
-    { name: "Facebook", href: "https://facebook.com", icon: Facebook },
+    { name: "Instagram", href: "https://instagram.com/limegreen.studio", icon: Instagram },
+    { name: "LinkedIn", href: "https://www.linkedin.com/company/lime-green-studios/", icon: Linkedin },
   ],
 };
 
@@ -69,18 +75,37 @@ export default function Footer() {
           </div>
 
           {/* Right Side: Links */}
-          <div className="flex gap-12 lg:gap-24">
+          <div className="flex gap-8 lg:gap-12">
+            {/* Solutions */}
+            <div>
+              <h4 className="text-gray-900 font-semibold text-lg mb-6">
+                Solutions
+              </h4>
+              <ul className="space-y-3">
+                {footerLinks.solutions.map((link) => (
+                  <li key={link.name}>
+                    <Link
+                      href={link.href}
+                      className="text-gray-500 hover:text-lime-600 transition-colors block text-sm"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
             {/* Navigation */}
             <div>
               <h4 className="text-gray-900 font-semibold text-lg mb-6">
                 Explore
               </h4>
-              <ul className="space-y-4">
+              <ul className="space-y-3">
                 {footerLinks.navigation.map((link) => (
                   <li key={link.name}>
                     <Link
                       href={link.href}
-                      className="text-gray-500 hover:text-lime-600 transition-colors block text-base"
+                      className="text-gray-500 hover:text-lime-600 transition-colors block text-sm"
                     >
                       {link.name}
                     </Link>
@@ -94,13 +119,13 @@ export default function Footer() {
               <h4 className="text-gray-900 font-semibold text-lg mb-6">
                 Socials
               </h4>
-              <ul className="space-y-4">
+              <ul className="space-y-3">
                 {footerLinks.socials.map((link) => (
                   <li key={link.name}>
                     <Link
                       href={link.href}
                       target="_blank"
-                      className="text-gray-500 hover:text-lime-600 transition-colors block text-base flex items-center gap-2"
+                      className="text-gray-500 hover:text-lime-600 transition-colors block text-sm flex items-center gap-2"
                     >
                       {link.name}
                     </Link>

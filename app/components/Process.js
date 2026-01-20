@@ -140,7 +140,7 @@ const Process = () => {
             className="font-coolvetica tracking-wide text-gray-900 text-3xl md:text-4xl lg:text-5xl font-normal leading-tight"
           >
             Idea →{" "}
-            <span className="bg-gradient-to-r from-lime-400 to-lime-200 text-gray-900 px-4 md:px-5 py-1 md:py-2 inline-block font-bold rounded-lg shadow-lg shadow-lime-500/20">
+            <span className="bg-gradient-to-r from-lime-400 to-lime-200 text-gray-900 px-4 md:px-5 py-1 md:py-2 inline-block font-bold rounded-lg">
               Product
             </span>{" "}
             in 4 weeks.
@@ -242,7 +242,11 @@ const Process = () => {
           transition={{ delay: 0.3 }}
           className="mt-16 md:mt-24 flex justify-center"
         >
-          <button className="group relative flex items-center gap-3 px-8 py-4 bg-lime-600 text-white rounded-2xl font-sans font-bold text-lg shadow-xl shadow-lime-600/20 hover:shadow-2xl hover:shadow-lime-600/40 hover:bg-lime-700 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300">
+          <a
+            href="/LGS.pdf"
+            download
+            className="group relative flex items-center gap-3 px-8 py-4 bg-lime-600 text-white rounded-2xl font-sans font-bold text-lg shadow-xl shadow-lime-600/20 hover:shadow-2xl hover:shadow-lime-600/40 hover:bg-lime-700 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
+          >
             Read our case studies
             <div className="flex items-center justify-center w-6 h-6 rounded-full bg-gray-900 text-white group-hover:translate-x-1 transition-transform duration-300">
               <svg
@@ -259,7 +263,7 @@ const Process = () => {
                 />
               </svg>
             </div>
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>

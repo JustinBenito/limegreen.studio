@@ -66,7 +66,7 @@ export const PricingSection = React.memo(({
 					className="text-center font-coolvetica text-3xl tracking-wide md:text-4xl lg:text-5xl font-normal leading-tight"
 				>
 					Plans that{" "}
-					<span className="bg-gradient-to-r from-lime-400 to-lime-200 text-gray-900 px-4 md:px-5 py-1 md:py-2 inline-block font-bold rounded-lg shadow-lg shadow-lime-500/20">
+					<span className="bg-gradient-to-r from-lime-400 to-lime-200 text-gray-900 px-4 md:px-5 py-1 md:py-2 inline-block font-bold rounded-lg">
 						Scale
 					</span>{" "}
 					With You

@@ -8,6 +8,11 @@ import BackToTop from "@/app/components/BackToTop";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import {
+  generateArticleSchema,
+  generateBreadcrumbSchema,
+  formatStructuredData,
+} from "@/lib/seo";
 
 // Utility for ID generation (must match lib/toc.js logic)
 const slugify = (text: string) => {
@@ -73,13 +78,81 @@ export async function generateStaticParams() {
     }));
 }
 
+// Generate metadata for SEO
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const { data } = getBlogBySlug(slug);
+
+    return {
+        title: `${data.title} | Lime Green Studios`,
+        description: data.description,
+        keywords: data.tags?.join(", "),
+        authors: [{ name: "Lime Green Studios" }],
+        openGraph: {
+            title: data.title,
+            description: data.description,
+            type: "article",
+            publishedTime: data.date,
+            authors: ["Lime Green Studios"],
+            images: [
+                {
+                    url: data.image,
+                    width: 1200,
+                    height: 675,
+                    alt: data.title,
+                },
+            ],
+            url: `https://limegreen.studio/blogs/${slug}`,
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: data.title,
+            description: data.description,
+            images: [data.image],
+            creator: "@limegreenstudios",
+        },
+        alternates: {
+            canonical: `https://limegreen.studio/blogs/${slug}`,
+        },
+        robots: {
+            index: true,
+            follow: true,
+            googleBot: {
+                index: true,
+                follow: true,
+                "max-video-preview": -1,
+                "max-image-preview": "large",
+                "max-snippet": -1,
+            },
+        },
+    };
+}
+
 export default async function BlogPage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
     const { content, data } = getBlogBySlug(slug);
     const toc = extractTOC(content);
 
+    // Generate structured data
+    const articleSchema = generateArticleSchema(data, slug);
+    const breadcrumbSchema = generateBreadcrumbSchema([
+        { name: "Home", url: "https://limegreen.studio" },
+        { name: "Blog", url: "https://limegreen.studio/blogs" },
+        { name: data.title, url: `https://limegreen.studio/blogs/${slug}` },
+    ]);
+
     return (
         <div className="bg-white min-h-screen flex flex-col">
+            {/* Structured Data */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={formatStructuredData(articleSchema)}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={formatStructuredData(breadcrumbSchema)}
+            />
+
             <ReadingProgressBar />
 
             <div className="pt-12 flex justify-center -ml-40 md:-ml-64">
