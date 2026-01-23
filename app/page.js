@@ -22,8 +22,8 @@ export default function Home() {
         <GlassNavbar />
         <Hero />
         <Second />
-        <Services />
-        <SolutionsShowcase />
+        {/*<Services />
+        <SolutionsShowcase /> */}
         <ComparisonTable />
         <Process />
         <PriceSection />
