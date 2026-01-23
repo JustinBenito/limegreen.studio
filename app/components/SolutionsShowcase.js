@@ -56,13 +56,7 @@ const solutions = [
     tagline: "Scalable Multi-Tenant SaaS Products",
     slug: "saas-development",
     icon: "☁️",
-  },
-  {
-    name: "ERP Development",
-    tagline: "Enterprise Resource Planning Systems",
-    slug: "erp-development",
-    icon: "🏢",
-  },
+  }
 ];
 
 export default function SolutionsShowcase() {
